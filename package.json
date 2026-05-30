@@ -1,6 +1,6 @@
 {
   "name": "@mgcls/shared",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Single source of truth for brand + schema constants shared across all MGCLS apps.",
   "license": "UNLICENSED",
   "private": false,
@@ -14,6 +14,10 @@
     "./constants": {
       "types": "./dist/constants.d.ts",
       "default": "./dist/constants.js"
+    },
+    "./types": {
+      "types": "./dist/types.d.ts",
+      "default": "./dist/types.js"
     }
   },
   "files": [
