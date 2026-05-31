@@ -47,6 +47,13 @@ export interface PortalZoneRatesFlatResponse {
     count: number;
     data: PortalZoneRateFlat[];
 }
+/** A real car model shown under a vehicle tier (display roster). */
+export interface PortalConfigModel {
+    name: string;
+    imagePath?: string | null;
+    capacityLabel?: string | null;
+    fuel?: string | null;
+}
 export interface PortalConfigVehicleType {
     name: string;
     dbName: string;
@@ -54,6 +61,11 @@ export interface PortalConfigVehicleType {
     sortOrder: number;
     hourlyRate: number;
     minimumHours: number;
+    /**
+     * Real car models shown under this tier (additive, R7-safe). Absent on
+     * portals predating the fleet roster; empty array when none configured.
+     */
+    models?: PortalConfigModel[];
 }
 export interface PortalConfigResponse {
     tax: {
