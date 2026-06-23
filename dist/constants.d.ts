@@ -1,12 +1,7 @@
 /**
- * @mgcls/shared — canonical brand + schema constants for all MGCLS apps.
+ * Public brand + schema constants (name, phone, address, rating, colors).
  *
- * SINGLE SOURCE OF TRUTH. Do not hardcode these values in app code — import them.
- * Values are seeded verbatim from the marketing site's `app/lib/jsonld.ts` (the
- * historical source of truth) so every consuming app renders identical output.
- * The marketing website itself is NOT a consumer yet — its content is owned and
- * changed separately. The 5 other apps import from here.
- *
+ * Every value here is already public on the live website's page schema.
  * NEVER add private data (EIN, API keys, secrets) — this package ships to browsers.
  */
 /** Customer-facing brand name — MUST match Google Business Profile exactly (NAP). */
@@ -22,7 +17,7 @@ export declare const EMAIL: "info@mgcls.com";
 export declare const LICENSE_TCP: "TCP #37478";
 export declare const SITE_DOMAIN: "laxcarservicemgcls.com";
 export declare const SITE_URL: "https://www.laxcarservicemgcls.com";
-/** Internal iframe-wrapper route for every "Book Now" CTA (never the booking subdomain). */
+/** Route for every "Book Now" CTA. */
 export declare const BOOKING_PATH: "/book";
 export declare const BRAND: {
     /** Primary brand green — buttons, icons, accents. Never revert to old #2B6B45. */
