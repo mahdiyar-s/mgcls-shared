@@ -38,11 +38,11 @@ export declare const FONTS: {
     readonly heading: "Playfair Display";
     readonly body: "Inter";
 };
-/** Google rating — 4.8★ / 193 reviews. Single source of truth across all apps. */
+/** Google rating — 4.8★ / 194 reviews. Single source of truth across all apps. */
 export declare const AGGREGATE_RATING: {
     readonly "@type": "AggregateRating";
     readonly ratingValue: "4.8";
-    readonly reviewCount: "193";
+    readonly reviewCount: "194";
     readonly bestRating: "5";
     readonly worstRating: "1";
 };
