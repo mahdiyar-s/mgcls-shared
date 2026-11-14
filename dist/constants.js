@@ -48,11 +48,11 @@ exports.FONTS = {
     body: "Inter",
 };
 /* ─── Reviews / rating ──────────────────────────────────────────────── */
-/** Google rating — 4.8★ / 194 reviews. Single source of truth across all apps. */
+/** Google rating — 4.8★ / 195 reviews. Single source of truth across all apps. */
 exports.AGGREGATE_RATING = {
     "@type": "AggregateRating",
     ratingValue: "4.8",
-    reviewCount: "194",
+    reviewCount: "195",
     bestRating: "5",
     worstRating: "1",
 };
