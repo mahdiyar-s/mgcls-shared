@@ -58,11 +58,11 @@ export const FONTS = {
 
 /* ─── Reviews / rating ──────────────────────────────────────────────── */
 
-/** Google rating — 4.8★ / 202 reviews. Single source of truth across all apps. */
+/** Google rating — 4.8★ / 203 reviews. Single source of truth across all apps. */
 export const AGGREGATE_RATING = {
   "@type": "AggregateRating",
   ratingValue: "4.8",
-  reviewCount: "202",
+  reviewCount: "203",
   bestRating: "5",
   worstRating: "1",
 } as const;
